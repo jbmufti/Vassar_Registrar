@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=RequestLoader
+comment0.text=\n\ Write\ a\ description\ of\ class\ RequestLoader\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=file\ students\ courses
+comment1.target=RequestLoader(java.lang.String,\ java.util.List,\ java.util.List)
+comment1.text=\n\ Constructor\ creates\ hashMaps\ for\ students\ and\ courses.\ \ \n\ mapStudents\:\ idNum\ is\ the\ key.\n\ mapCourses\:\ courseKey\ (string)\ is\ the\ key,\ \n\ \n\ calls\ the\ load(file)\ method\ in\ abstract\ parent\ class.\n\ \n\ @param\ file\:\ the\ path\ to\ the\ file.\n\ @param\ students\:\ List\ of\ students\ successfully\ loaded\ from\ file\n\ @param\ courses\:\ \ List\ of\ courses\ successfully\ loaded\ from\ file\n
+comment2.params=data
+comment2.target=void\ parseAndLoadLine(java.lang.String)
+comment2.text=\n\ Parse\ a\ single\ line\ of\ CSV\ in\ the\ form\:\n\ studentId,\ Course\ 1,\ course\ 2,\ course\ 3,\ course\ 4,\ course\ 5,\ course\ 6,\ course\ 7\n\ 999248624,CMPU-145-51,CMPU-145-52,EDUC-361-51,ECON-235-51,PHED-105-51,ECON-235-51,COGS-311-51\n\ \n\ Method\ should\ \n\ 1)\ extract\ the\ studentId\ and\ find\ the\ associated\ Student\ in\ mapStudents.\n\ 2)\ extract\ the\ courseKey\ and\ find\ the\ associated\ Course\ in\ mapCourses\n\ 3)\ add\ the\ course\ to\ the\ student\ requests.\n\ \n\ @param\ data\:\ a\ single\ line\ from\ the\ csv\ file.\n\ parse\n
+comment3.params=
+comment3.target=java.util.List\ mapStudentRequests()
+comment3.text=\n\ Method\ takes\ finished\ hashmap\ of\ students\ with\ all\ of\ their\ requests\ and\ turns\n\ it\ back\ into\ a\ List,\ sorts\ it,\ and\ returns\ it.\n\ \n\ @return\ students\:\ list\ of\ all\ students\ and\ their\ requests\ sorted\ by\ drawNumber\ and\ Class\n\ (as\ specified\ in\ the\ Student\ compareTo\ method\ task).\n
+numComments=4

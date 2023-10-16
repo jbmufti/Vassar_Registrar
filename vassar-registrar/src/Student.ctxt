@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Student
+comment1.params=name\ idNum\ gradYear\ drawNumber
+comment1.target=Student(java.lang.String,\ int,\ int,\ int)
+comment1.text=\n\ @param\ name\:\ string\ the\ student's\ first\ and\ last\ name;\n\ @param\ idNum\:\ int\ the\ student's\ 999\ number.\n\ @param\ gradYear\:\ 4\ digit\ graduation\ year.\n\ @param\ drawNumber\:\ the\ draw\ number\ determines\ the\ student's\ place\ in\ the\ algorithm.\n
+comment2.params=o
+comment2.target=boolean\ equals(java.lang.Object)
+comment2.text=\n\ Returns\ true\ if\ idNumbers\ are\ the\ same;\n\ @param\ Object\:\ any\ possible\ object.\ \ \n\ \n\ @return\ boolean\:\ true\ if\ idNumbers\ are\ the\ same.\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\n\ ToString\ returns\ a\ string\ representation\ including\ \n\ name,\ graduation\ year\ and\ draw\ number.\n
+comment4.params=s
+comment4.target=int\ compareTo(java.lang.Object)
+comment4.text=\n\ Sorts\ the\ student\ by\ draw\ number\ and\n\ class\ year.\ \ \n\ The\ first\ person\ should\ be\ a\ 4th\ year\ with\ draw\ number\ 1.\n\ The\ last\ person\ should\ be\ a\ 1st\ year\ with\ a\ the\ largest\ draw\ number.\n\ All\ 4th\ years\ come\ before\ all\ 3rd\ years,\ etc.\n\ \n\ @return\ retval\:\ \n\ \ \ \ 1\ if\ the\ first\ student\ comes\ first,\ \n\ \ \ \ 0\ if\ they\ are\ equal\n\ \ \ \ -1\ if\ the\ second\ student\ comes\ firt.\n
+comment5.params=maybe
+comment5.target=boolean\ isRegisteredFor(Course)
+comment5.text=\n\ Check\ to\ see\ if\ the\ student\ is\ registered\ for\ any\ section\ of\ a\ course.\n\ @param\ maybe\:\ Course.\ \ The\ potential\ course\ to\ register\ for.\n\ \n\ @return\ boolean\:\ true\ if\ the\ student\ is\ registered\ for\ any\ section\ of\ the\ course.\n
+comment6.params=
+comment6.target=double\ totalRegisteredCredits()
+comment6.text=\n\ @return\ the\ total\ registered\ credits\ (limit\ is\ 4.5)\n
+comment7.params=maybe
+comment7.target=boolean\ hasAConflict(Course)
+comment7.text=\n\ @param\ maybe\:\ Course\ the\ potential\ course\n\ \n\ @return\ true\ if\ the\ student\ already\ has\ something\ at\ that\ time.\n
+numComments=8

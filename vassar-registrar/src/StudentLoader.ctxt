@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=StudentLoader
+comment0.text=\n\ Write\ a\ description\ of\ class\ StudentLoader\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=file
+comment1.target=StudentLoader(java.lang.String)
+comment1.text=\n\ Constructor\ calls\ the\ load(file)\ method\ in\ abstract\ parent\ class.\n\ \n\ @param\ file\:\ the\ path\ to\ the\ file.\n
+comment2.params=
+comment2.target=StudentLoader()
+comment3.params=data
+comment3.target=void\ parseAndLoadLine(java.lang.String)
+comment3.text=\n\ Parse\ a\ single\ line\ of\ CSV\ in\ the\ form\:\n\ Name,\ idNum,\ gradYear,\ drawNummber\n\ Hector\ Tran,999248624,2023,1\n\ \n\ Method\ should\ create\ a\ new\ Student\ Object\ and\ add\ it\ to\ \n\ the\ students\ instance\ variable.\n\ \n\ @param\ data\:\ a\ single\ line\ from\ the\ csv\ file.\n
+comment4.params=
+comment4.target=java.util.List\ getStudents()
+comment4.text=\n\ Easy\ getter\ method\ to\ return\ the\ completed\ student\ roster.\n\ @return\ students\:\ the\ roster\ in\ the\ form\ of\ a\ List<Student>\n
+numComments=5
